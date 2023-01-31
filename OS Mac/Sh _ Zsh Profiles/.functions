@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+## NAVIGATION
+function openRepo() {
+    local organizationProjectsDirectoryName = "OrganizationName"                             ## ex: ~/Projects/OrganizationName/..
+    local relativePath=`echo $PWD | awk -F"$organizationProjectsDirectoryName" '{print $2}'` ## ex: ~/Projects/OrganizationName/{relativePath}
+    
+    local = organizationURLRepository = "OrganizationURLRepo"   ## ex: https://gitlab.company.com, https://github.com
+    local fullUrl="${organizationURLRepository}${relativePath}"
+    open $fullUrl
+}
+
+function sshRemote() {
+    cd ~/.ssh/RemoteHost
+    ssh -i remotehost_rsa {username}@{remotehost_ip}
+}
+
+function dockerstart() {
+    # https://medium.com/crowdbotics/a-complete-one-by-one-guide-to-install-docker-on-your-mac-os-using-homebrew-e818eb4cfc3
+    docker-machine start
+    docker-matchine env default
+    eval "$(docker-machine env default)"
+}

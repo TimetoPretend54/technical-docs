@@ -1,0 +1,13 @@
+[core]
+	editor = \"C:\\Users\\{UserName}\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe\" --wait
+	excludesfile = C:\\Users\\{UserName}\\.gitignore
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = firstName lastName						# UPDATE TO ACTUAL NAME
+[user]
+	email = usernamefirst.usernamelast@email.com	# UPDATE TO ORG/PERSONAL EMAIL (Depending on Machine)
+[gui]

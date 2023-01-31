@@ -1,0 +1,43 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.integrated.shellArgs.windows": ["-ExecutionPolicy", "Bypass"],
+    "rest-client.environmentVariables": {
+        "$shared": {},
+        "local":{
+            "catfacts-user-key": "c46e69a5-b620-4ce4-9341-57311ab58842"
+        },
+        "dev":{
+            "catfacts-user-key": "c46e69a5-b620-4ce4-9341-57311ab58842"
+        },
+        "test": {
+            "catfacts-user-key": "c46e69a5-b620-4ce4-9341-57311ab58842"
+        },
+        "staging": {
+            "catfacts-user-key": "d35bb0b2-ae14-4671-9b19-043c4882a110"
+        },
+        "production": {
+            "catfacts-user-key": "d35bb0b2-ae14-4671-9b19-043c4882a110"
+        }
+    },
+    "openapi.defaultPreviewRenderer": "redoc",
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "keep",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.fontLigatures": null,
+    "[jsonc]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace"
+    }
+}

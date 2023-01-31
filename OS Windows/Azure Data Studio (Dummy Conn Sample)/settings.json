@@ -1,0 +1,55 @@
+{
+    "workbench.colorTheme": "Default Dark Azure Data Studio",
+    "datasource.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "C777F06B-202E-4480-B475-FA416154D458",
+            "color": "#98AFC7",
+            "description": "Workstation development"
+        },
+        {
+            "name": "Local",
+            "id": "8512f667-97c7-4b58-8f39-5b13bc7c9624",
+            "parentId": "C777F06B-202E-4480-B475-FA416154D458",
+            "color": "#85AE72",
+            "description": "Workstation development"
+        }
+    ],
+    "datasource.connections": [
+        {
+            "options": {
+                "connectionName": "ProjectsV13",
+                "server": "(localdb)\\ProjectsV13",
+                "database": "",
+                "authenticationType": "Integrated",
+                "user": "",
+                "password": "",
+                "applicationNamed": "sqlops",
+                "groupId": "8512f667-97c7-4b58-8f39-5b13bc7c9624",
+                "databaseDisplayName": ""
+            },
+            "groupId": "8512f667-97c7-4b58-8f39-5b13bc7c9624",
+            "providerName": "MSSQL",
+            "savePassword": true,
+            "id": "fd21ae81-80f4-47e1-b2ac-c2fa8ec0790a"
+        },
+        {
+            "options": {
+                "connectionName": "",
+                "server": "localhost,1433",
+                "database": "",
+                "authenticationType": "SqlLogin",
+                "user": "sa",
+                "password": "",
+                "applicationName": "azdata",
+                "groupId": "8512f667-97c7-4b58-8f39-5b13bc7c9624",
+                "databaseDisplayName": ""
+            },
+            "groupId": "8512f667-97c7-4b58-8f39-5b13bc7c9624",
+            "providerName": "MSSQL",
+            "savePassword": false,
+            "id": "02d4555e-3222-403c-ac3a-b367cc550dd4"
+        }
+    ],
+    "window.zoomLevel": 1
+}
