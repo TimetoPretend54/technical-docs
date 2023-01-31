@@ -1,0 +1,20 @@
+{
+    "rest-client.environmentVariables": {
+        "$shared": {},
+        "local":{
+            "base-url": "https://cat-fact.herokuapp.com"
+        },
+        "dev":{
+            "base-url": "https://cat-fact.herokuapp.com"
+        },
+        "test": {
+            "base-url": "https://cat-fact.herokuapp.com"
+        },
+        "staging": {
+            "base-url": "https://cat-fact.herokuapp.com"
+        },
+        "production": {
+            "base-url": "https://cat-fact.herokuapp.com"
+        }
+    }
+}

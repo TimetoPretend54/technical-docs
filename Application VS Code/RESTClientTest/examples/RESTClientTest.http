@@ -1,0 +1,8 @@
+### Cat Facts
+GET {{base-url}}/facts
+Content-Type: application/json
+
+### Cat Users
+POST {{base-url}}/users/me
+Content-Type: application/json
+Authorization: Basic user {{catfacts-user-key}}
