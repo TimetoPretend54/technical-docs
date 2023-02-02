@@ -10,7 +10,7 @@
 - Install Azure Data Studio (follow `Azure Data Studio\README.md` for settings setup)
 - Install PowerToys (follow `PowerToys\README.md`for settings setup)
 
-- Other Development Apps to Intalls:
+- Other Development Apps to Install:
     - NodeJS (https://nodejs.org/en/download/, choose LTS vers)
         - Make sure to install the Angular CLI as well: `npm install -g @angular/cli` in C:/
     - PoshGit (`Install-Module post-git`)
@@ -18,6 +18,7 @@
     - Sublime Text
     - NotePad++
     - Accessibility Insights (https://accessibilityinsights.io/)
+    - Azure Data Studio (https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
     - Azure Storage Explorer (Optional, useful for querying Cosmos) - (https://azure.microsoft.com/en-us/features/storage-explorer/)
     - Visual Studio 2019 (or whatever the recent release is - https://visualstudio.microsoft.com/)
     - Docker Desktop (https://www.docker.com/products/docker-desktop)

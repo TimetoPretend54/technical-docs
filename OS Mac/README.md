@@ -7,7 +7,7 @@
 - Install Git (follow `GitConfig\README.md`)
 - Install VS Code (https://code.visualstudio.com/download)
 
-- Other Development Apps to Intalls:
+- Other Development Apps to Install:
     - NodeJS (https://nodejs.org/en/download/, choose LTS vers)
     - Angular (https://angular.io/cli)
       - make sure to install the Angular CLI as well: `npm install -g @angular/cli` in main drive (`~`, aka `PC/Users/{username}`)
@@ -18,7 +18,8 @@
     - Kubernetes (https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/#install-with-homebrew-on-macos)
     - Helm (https://helm.sh/docs/intro/install/#from-homebrew-macos)
     - GCP SDK (https://cloud.google.com/sdk/docs/install#mac)
-      - https://cloud.google.com/sdk/gcloud/reference/container/clusters/get-credentials 
+      - https://cloud.google.com/sdk/gcloud/reference/container/clusters/get-credentials
+    - Azure Data Studio (https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
 
 - VS Code Extensions (Enter name under `Extensions` Menu)
     - REST Client
