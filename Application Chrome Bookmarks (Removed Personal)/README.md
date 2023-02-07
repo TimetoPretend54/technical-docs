@@ -11,7 +11,7 @@
 2. Go to `Bookmark Manager` (Top Right Ellipsis -> Bookmarks -> Bookmark Manager)
 3. Select Top Right Ellipsis -> Export Bookmarks
 4. Select download location
-5. NOTE: If writing back to this Repo, MAKE SURE TO REMOVE PERSONAL BOOKMARKS (can verify via new file name containing "removed_personal.html" suffix)
+5. NOTE: If writing back to this Repo, MAKE SURE TO REMOVE PERSONAL BOOKMARKS - `"Personal/Entertainment" & "Other"` (can verify via new file name containing "removed_personal.html" suffix)
    1. Export the bookmarks, save file to "Application Chrome Bookmarks (Removed `Personal`)
    2. Delete `bookmarks_removed_personal.html`
    3. Modify `bookmarks_MM_DD_YY.html`

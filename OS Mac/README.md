@@ -96,3 +96,25 @@
       - GIPHY Capture. The GIF Maker
       - Clocker (Abhishek Banthia)
       - Mini Calendar
+
+- Adding HP Printers to Mac
+    - Note: if on a VPN, "may" need to disconnect before attempting to add/use printer
+    1. Refer to https://support.hp.com/us-en/document/ish_2635044-2489772-16 -> "If printing software is not found from 123.hp.com, use an alternative method"
+    2. Refer to alternative method "Apple Support" (May not need to do this on new MacOS Versions)
+       1. Open links for MacOS Driver:
+          - https://support.apple.com/kb/DL1888?locale=en_US
+          - https://support.apple.com/kb/DL907?locale=en_US
+       2. Download and Install (suggest to just download both and attempt to install, one of them should work, the other won't due to OS Version)
+    3. From Apple App Store Find "HP Smart for Desktop" and Download (Don't Open Yet)
+    4. Now Go to Settings -> Printers & Scanners
+       1. Click "+" Icon -> Select "IP" Tab
+          1. In Address enter IP Address of Printer
+          2. Under "Use", select "Select Software..."
+          3. Search for your Printer Software (ex: HP Envy -> search "Envy" -> Recommend Driver: "HP ENVY 5640 series"), select "OK"
+          4. Click "Add"
+       2. Make sure to rename Device from IP Address to actual Printer Name (Under Printers & Scanners -> Right Click -> Rename Printer)
+    5. Now Open "HP Smart for Desktop", select "Add new printer"
+       1. Should see newly added printer name and follow HP Smart Desktop Steps from there to add.
+    6. Print Test Document
+       1. Find Printer in "HP Smart for Desktop" App, select "Printer Settings"
+       2. Select "Printer Reports" -> Printer Status Report -> Print
