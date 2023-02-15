@@ -93,9 +93,13 @@
       - XCode (See `Sh_Zsh Profiles\README.md` for more info)
     - App Store (NOTE: Will need apple ID for app store, if org, use org email to sign up for apple id)
       - MuteKey (Dave Cheng)
-      - GIPHY Capture. The GIF Maker
+      - GIPHY Capture. The GIF Maker (Not really needed, can use "QuickTime Player" -> Right Click -> New Screen Recording)
+        - For QuickTime Player Screen Recording, Go to Options -> Save To -> Other Location... -> Pictures/Screenshots (Make sure to do this each time, or clipboard pictures won't save to screenshots anymore)
       - Clocker (Abhishek Banthia)
-      - Mini Calendar
+      - Mini Calendar Widget (Handy monthly popup calendar) -> Open -> Preferences -> Un-select "Dock Icon", then in Remove from Dock ("Find Icon, "Remove from Dock")
+    - Pages (MS Office Equiv)
+    - Numbers (MS Excel)
+    - Keynote (Powerpoint)
 
 - Adding HP Printers to Mac
     - Note: if on a VPN, "may" need to disconnect before attempting to add/use printer
