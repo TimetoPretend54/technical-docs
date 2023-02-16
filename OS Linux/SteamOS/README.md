@@ -25,3 +25,11 @@ NOTE: THIS MAY BE OVERWRITTEN/OUT OF DATE BASED ON LATST STEAMOS RELEASE (Tested
     ``` 
     git config --global core.editor "/var/lib/flatpak/exports/bin/com.visualstudio.code --wait"
     ```
+- Setup [GitHub using SSH Credentials](https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-ssh-urls) (Could also use VS Code's Git Integration)
+    - https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+    - Location ex: `~/.ssh/github`, add passphrase (save somewhere securly)
+    - **REMINDER:** Check "git remote -v", if used https to clone initially, need to update origin to ssh (Fetch SSL_URL from same "Clone" Button on repo, find "SSH" Tab)
+        ```
+        git remote set-url origin {SSH_URL}
+        ```
+        - ex: `git remote set origin git@github.com:user/repo.git`

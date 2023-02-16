@@ -4,6 +4,7 @@
 - Install Chocolately (https://www.liquidweb.com/kb/how-to-install-chocolatey-on-windows/)
 - Install 7Zip (https://www.7-zip.org/download.html)
 - Install Git (follow `GitConfig\README.md`)
+    - https://github.com/GitCredentialManager/git-credential-manager/blob/release/docs/install.md#windows
 - Install Cmder (follow `AppBackups\README.md`)
 - Install Powershell Profile (follow `Powershell\README.md.md`)
 - Install VS Code (follow `VS Code\README.md` for settings setup)

@@ -5,6 +5,7 @@
 - Install Sh/Zsh Profiles (follow `Sh_Zsh Profiles\README.md`)
 - Install Terminal Themes (`Terminal Themes\README.md`)
 - Install Git (follow `GitConfig\README.md`)
+  - https://github.com/GitCredentialManager/git-credential-manager/blob/release/docs/install.md#macos
 - Install VS Code (https://code.visualstudio.com/download)
 
 - Other Development Apps to Install:
