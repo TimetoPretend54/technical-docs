@@ -24,6 +24,9 @@ Essentially do this:
    - See https://github.com/junegunn/fzf/issues/1304#issuecomment-588595980 for more info
 4. Download [git-prompt.sh](https://github.com/lyze/posh-git-sh/blob/master/git-prompt.sh)
   - Place in `~/git-prompt.sh`
-  - NOTE: Can locally (off my machine) if git-prompt.sh if needed, but cannot distribute src code due to license conflicts
-5. Download/Install all other sources from `.bash_profile` and `.zshrc` (ex: kube-ps1.sh)
+  - NOTE: Can locally (off my machine/drive) if git-prompt.sh if needed, but cannot distribute src code due to license conflicts
+5. Download [kube-ps1.sh](https://github.com/jonmosco/kube-ps1/blob/master/kube-ps1.sh)
+   - Place in `~/kube.ps1.sh`
+   - NOTE: Can locally (off my machine/drive) if kube-ps1.sh if needed, but cannot distribute src code due to license conflicts
+6. Download/Install all other sources from `.bash_profile` and `.zshrc` (ex: kube-ps1.sh)
   - Just check each file, each source links to the associated GitHub Repo, which should have instructions how to add/install

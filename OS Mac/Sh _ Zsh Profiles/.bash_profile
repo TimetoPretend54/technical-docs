@@ -9,7 +9,7 @@ source ~/.bash_prompt
 # source ~/.aliases
 # source ~/.functions
 source ~/git-prompt.sh                              # https://github.com/lyze/posh-git-sh
-source "usr/local/opt/kube-ps1/share/kube-ps1.sh"   # https://github.com/jonmosco/kube-ps1
+source ~/kube-ps1.sh                                # https://github.com/jonmosco/kube-ps1
 
 # PROMPT
 export PROMPT_COMMAND='__posh_git_ps1 "\\[\[\e[0;32m\]\u \[\e[0;34m\]\w" " \[\e[1;36m\]$(kube_ps1)\n\$\[\e[0m\] ";'$PROMPT_COMMAND
