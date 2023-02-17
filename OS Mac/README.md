@@ -76,8 +76,14 @@
 
 - MacOS Apps/App Store Apps
     - Downloads 
-      - DisplayLink -> First test if it works out of the box, or with the recent Software (https://www.synaptics.com/products/displaylink-graphics/downloads/macos)
-        - If it does not work with either above option:
+      - DisplayLink (For Dock Hub) -> First test if it works out of the box, or with the recent Software (https://www.synaptics.com/products/displaylink-graphics/downloads/macos)
+        - TESTED ON Monterey (12.6.3), works w/ latest DisplayLink Install (DisplayLink Graphics Manager 1.8 works)
+          - Once installed select DisplaLink (top right icon)
+            - "Login screen extension status" -> Download and install
+              - After completed installing, "Login screen extension status" will say "Installed"
+            - "Automatic app startup" -> Toggle "Launch automatically after login"
+            - "Display rotation and toggle" -> Select "90°"
+        - If it does not work with recent DisplayLink software:
             - First Download "DisplayLink Manager Graphics Connectivity 1.4.pkg" and install
             - Second Download "DisplayLink USB Graphics Software for macOS 5.2.5.dmg"
       - MS Edge (https://www.microsoft.com/en-us/edge/download?form=MM145U)
