@@ -20,6 +20,7 @@ Repository containing general information for Software Development/Machine Setup
     - [PowerToys](/OS%20Windows/PowerToys/)
 - [Linux OS](/OS%20Linux/)
     - [General - SteamOS](/OS%20Linux/SteamOS/)
+        - [Konsole Terminal Themes](/OS%20Linux/SteamOS/Terminal%20Themes%20(Konsole)/)
 
 ## Application Docs
 - [Chrome](/Application%20Chrome%20Bookmarks%20(Removed%20Personal)/) 
