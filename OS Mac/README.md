@@ -30,7 +30,6 @@
     - Character Count
     - Code Spell Checker
     - Bridge to Kubernetes
-    - Debugger for Microsoft Edge
     - Diff Folders
     - Partial Diff
     - Plant UML
@@ -59,8 +58,9 @@
     - Markdown PDF
         - Right Click Markdown File -> Select `Export (pdf)`
         - Created in path relative to Markdown File in folder title `MarkdownPDFOutput`
+        - NOTE: if on VPN/Proxy, may have issues running command
+          - For now, this temporary sollution will work: https://github.com/yzane/vscode-markdown-pdf/issues/189#issuecomment-625064634
     - Live Share
-    - Live Share Extension
         - Add `C:\Users\{Username}\AppData\Local\Temp\vsliveshare` to `Manage Workspace Trust Folder(s)`
             - You may need to create the `vsliveshare` folder under `Temp` if it doesn't already exist
             - `F1 -> Workspaces: Manage Workspace Trust`
