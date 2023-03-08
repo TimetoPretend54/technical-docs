@@ -55,6 +55,8 @@
     - Zoom Bar
     - ESLint
     - GitLens
+    - Snowflake
+    - Edit csv (janisdd)
     - Markdown PDF
         - Right Click Markdown File -> Select `Export (pdf)`
         - Created in path relative to Markdown File in folder title `MarkdownPDFOutput`
