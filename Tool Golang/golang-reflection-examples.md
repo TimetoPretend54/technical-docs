@@ -117,3 +117,75 @@ func getData(query string) (Data, error) {
     return data, nil
 }
 ```
+
+## Reflect struct (Embedded Types) - getData: fields of type []*J - create new T - one field K (embedded type []*J) - set []*J val - use interface of []*J and []*L
+```go
+// T
+type Data struct {
+    Infos1 *Infos1          // *K
+    Infos2 *Infos2          // *K
+    ...
+}
+
+// K
+type Infos1 struct {
+    Infos1 []*Info1         // []*J
+}
+
+// J
+type Info1 struct {
+    Info1 ModelInfo1        // L
+}
+
+// L
+type ModelInfo1 struct {
+    data1   string
+    data2   string
+    ...
+}
+
+func getData(query string) (Data, error) {
+    data := Data{}
+    vData := reflect.ValueOf(&data).Elem()
+
+    for i := 0; i < vData.NumField(); i++ {
+        // Struct Data -> For each Field: Infos{i} -> 1 Field (Embedded Type) *[]Info{i} -> Info{i}
+        // T -> Foreach T Field: *K -> 1 Field []*J -> J (dataType)
+        
+        valueData := vData
+        typeInfos := reflect.ValueOf(valueData.Field(i).Interface()).Type.Elem()
+        valueInfos := reflect.ValueOf(reflect.New(typeInfos).Interface()).Elem()
+        valueInfo := reflect.ValueOf(valueInfos.Field(0).Interface()) // Embedded Type is the only field (take Field(0))
+        typeInfo := valueInfo.Type().Elem().Elem()
+
+        queryI := reflect.New(typeInfo).Interface().(IQuery)   // *K - typeInfos implements `IQuery`` interface
+        if !ok {
+            return otherData, fmt.Errorf("%s does not implement IData", valType)
+        }
+
+        // Query will fetch []*L (model type)
+        query := queryI.GetQuery(query)             // IQuery interface method
+        qResults, err := queryI.GetData(query)      // IQuery interface method
+        if err != nil {
+            return data, fmt.Errorf("failed to get data: %w", err)
+        }
+
+        convertI := reflect.New(typeInfos).Interface().(IConvert)   // *K - typeInfos implements `IConvert`` interface
+        if !ok {
+            return otherData, fmt.Errorf("%s does not implement IData", valType)
+        }
+
+        // Convert queryResults from []*L back to []*J
+        results, err := convertI.Convert(query)    
+        if err != nil {
+            return otherData, fmt.Errorf("%s failed to convery query to type: %w", err)
+        }
+
+        // Set value for embedded type Infos{i} (type []*Info{i})
+        // Set value of *K field (type []*J)
+        vData.Field(i).Set(reflect.ValueOf(results))
+    }
+
+    return data, nil
+}
+```
