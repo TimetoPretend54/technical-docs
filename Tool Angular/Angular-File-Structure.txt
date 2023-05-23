@@ -1,0 +1,88 @@
+├── src
+│   ├── app
+│   │   ├── core
+│   │   │   ├── guards
+│   │   │   │   ├── guard-a.guard.ts
+│   │   │   │   ├── index.ts
+│   │   │   ├── interceptors
+│   │   │   │   ├── interceptor-a.interceptor.ts
+│   │   │   │   ├── index.ts
+│   │   │   ├── models
+│   │   │   │   ├── model-a.ts
+│   │   │   │   ├── index.ts
+│   │   │   ├── services
+│   │   │   │   ├── service-a.service.ts
+│   │   │   │   ├── index.ts
+|   │   │   ├── consts,enums,utils, etc
+│   │   │   ├── core.module.ts
+│   │   │   ├── index.ts
+│   │   ├── features
+|   │   │   ├── admin
+|   │   │   │   ├── components
+|   │   │   │   │   ├── admin-shared.component.ts
+|   │   │   │   │   ├── admin-shared.module.ts
+|   │   │   │   ├── directives
+|   │   │   │   │   ├── admin-directive.directive.ts
+|   │   │   │   ├── pipes
+|   │   │   │   │   ├── admin-pipe.pipe.ts
+|   │   │   │   ├── pages
+|   │   │   │   │   ├── dashboard
+|   │   │   │   │   │   ├── dashboard.component.html|scss|ts
+|   │   │   │   │   │   ├── dashboard.module.ts
+|   │   │   │   │   ├── user
+|   │   │   │   │   │   ├── user.component.html|scss|ts
+|   │   │   │   │   │   ├── user.module.ts
+|   |   │   │   │   ├── index.ts
+|   │   │   │   ├── services
+|   │   │   │   │   ├── admin-service.service.ts
+|   │   │   │   ├── models
+|   │   │   │   │   ├── admin-model.ts
+|   │   │   │   ├── admin.routing.module.ts
+|   │   │   │   ├── admin.module.ts
+|   │   │   │   ├── index.ts
+|   │   │   ├── home
+|   │   │   │   ├── pages
+|   │   │   │   │   ├── about-us
+|   │   │   │   │   │   ├── about-us.component.html|scss|ts
+|   │   │   │   │   │   ├── about-us.module.ts
+|   │   │   │   │   ├── contact-us
+|   │   │   │   │   │   ├── contact-us.component.html|scss|ts
+|   │   │   │   │   │   ├── contact-us.module.ts
+|   │   │   │   │   ├── home
+|   │   │   │   │   │   ├── home.component.html|scss|ts
+|   │   │   │   │   │   ├── home.module.ts
+|   │   │   │   ├── admin.routing.module.ts
+|   │   │   │   ├── admin.module.ts
+|   │   │   │   ├── index.ts
+│   │   ├── shared
+│   │   │   ├── components
+│   │   │   │   ├── footer
+│   │   │   │   │   ├── footer.component.html|scss|ts
+│   │   │   │   │   ├── footer.module.ts
+│   │   │   │   ├── header
+│   │   │   │   │   ├── header.component.html|scss|ts
+│   │   │   │   │   ├── header.module.ts
+│   │   │   │   ├── navbar
+│   │   │   │   │   ├── navbar.component.html|scss|ts
+│   │   │   │   │   ├── navbar.module.ts
+│   │   │   │   ├── not-found
+│   │   │   │   │   ├── not-found.component.html|scss|ts
+│   │   │   │   │   ├── not-found.module.ts
+│   │   │   ├── directives
+│   │   │   │   ├── directive1
+│   │   │   │   │   ├── directive1.directive.ts
+│   │   │   │   │   ├── directive1.module.ts
+│   │   │   ├── pipes
+│   │   │   │   ├── pipe1
+│   │   │   │   │   ├── pipe1.pipe.ts
+│   │   │   │   │   ├── pipe1.module.ts
+│   │   │   ├── index.ts
+│   ├── app-routing.module.ts  
+│   ├── app-wildcard-routing.module.ts
+│   ├── app.component.css
+│   ├── app.component.html
+│   ├── app.component.spec.ts
+│   ├── app.component.ts
+│   ├── app.module.ts
+│   ├── not-found.component.ts
+ 
