@@ -23,58 +23,69 @@
     - Azure Data Studio (https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio)
 
 - VS Code Extensions (Enter name under `Extensions` Menu)
-    - REST Client
-        - See `VS Code\RESTClientTest` for an example of how to use into
-        - Basically when using .http project file, each project folder should have a relative settings.json (ex: {projectName\.vscode\settings.json})
-            - Make sure to load the entire project into VS Code, or the .http file wont read in the variables from the relative settings.json
+    - Angular Language Service
+    - AWS Toolkit (if using AWS)
+    - GitLens
+    - Angular Snippets (Version 16)
+    - Bridge to Kubernetes
     - Character Count
     - Code Spell Checker
-    - Bridge to Kubernetes
+    - CloudFormation (aws-scripting-guy)
+    - Color Highlight (Sergii N)
+    - Dev Containers (Microsoft)
     - Diff Folders
-    - Partial Diff
-    - Plant UML
-    - PostgreSQL
-    - SVG (jock -> jock.svg)
-    - Docker
-    - Todo+ (by Fabio Spampinato)
-    - vscode-reveal
-    - YAML (Red Hat)
-    - YAML Sort (Pascal Reitermann)
-    - File Downloader (Microsoft DevLabs)
+    - Docker (Microsoft)
+    - Edit CSV (janisdd)
+    - ESLint (Microsoft)
+    - Filter Line (by everettjf) - Use by opening `Ctrl+Shift+P` (type in `filter`)
+        - A new file will appear with the filter out lines gone ({filename}.{extension}.filterline.log)
+        - Remembers search patterns you have used before (helpful for searching for LogEvent Levels, ex: Filter by input string, search pattern" [WRN])
     - GitBlame
     - Git Graph
     - Go (Go Team at Google)
-    - Go Test Explorer
     - Go Autotest
+    - Go Test Explorer
     - Helm Intellisense
     - HTML Preview
-    - Kubernetes (Microsoft)
-    - Mermaid Markdown Syntax Highlighting
-    - Markdown Preview Mermaid Support
+    - Intellisense for CSS class names in HTML (Zignd)
+    - Karma Test Explorer (for Angular, Jasmine, and Mocha) - Lucas Ononiwu
+    - Kubernetes (microsoft)
+    - Live Share
+        - Add `C:\Users\{Username}\AppData\Local\Temp\vsliveshare` to `Manage Workspace Trust Folder(s)`
+            - You may need to create the `vsliveshare` folder under `Temp` if it doesn't already exist
+            - `F1 -> Workspaces: Manage Workspace Trust`
+    - Makefile Tools (microsoft)
     - Markdown All in One
-    - Zoom Bar
-    - ESLint
-    - GitLens
-    - Snowflake
-    - Edit csv (janisdd)
     - Markdown PDF
         - Right Click Markdown File -> Select `Export (pdf)`
         - Created in path relative to Markdown File in folder title `MarkdownPDFOutput`
         - NOTE: if on VPN/Proxy, may have issues running command
           - For now, this temporary sollution will work: https://github.com/yzane/vscode-markdown-pdf/issues/189#issuecomment-625064634
-    - Live Share
-        - Add `C:\Users\{Username}\AppData\Local\Temp\vsliveshare` to `Manage Workspace Trust Folder(s)`
-            - You may need to create the `vsliveshare` folder under `Temp` if it doesn't already exist
-            - `F1 -> Workspaces: Manage Workspace Trust`
+    - Markdown Preview Mermaid Support
+    - Mermaid Markdown Syntax Highlighting
     - Open API (Swagger) Editor
-    - Filter Line (by everettjf) - Use by opening `Ctrl+Shift+P` (type in `filter`)
-        - A new file will appear with the filter out lines gone ({filename}.{extension}.filterline.log)
-        - Remembers search patterns you have used before (helpful for searching for LogEvent Levels, ex: Filter by input string, search pattern" [WRN])
+    - Partial Diff
+    - Plant UML
+    - PostgreSQL
     - Prettier - Code Formatter
         - Enable Format on Save:
             1. File -> Preferences -> Settings
             2. Search for `formatOnSave` and check the box
             3. On `Editor:Default Formatter` (select `Prettier for HTML, select `Typescript and Javascript Language Features` for Typescript, or if you want prettier, which `may` mess formatting up: `esbenp.prettier-vscode`)
+    - Prettier ESLint (Rebecca Vest)
+    - REST Client
+        - See `VS Code\RESTClientTest` for an example of how to use into
+        - Basically when using .http project file, each project folder should have a relative settings.json (ex: {projectName\.vscode\settings.json})
+            - Make sure to load the entire project into VS Code, or the .http file wont read in the variables from the relative settings.json
+    - Snowflake (snowflake.com)
+    - SVG (jock)
+    - Swagger Viewer (Arjun G)
+    - Test Explorer UI (Holger Benl)
+    - Todo+ (Fabio Spampinato)
+    - vscode-reveal (evilz)
+    - YAML (redhat)
+    - YAML Sort (Pascal Reitermann)
+    - Zoom Bar (wraith13)
 
 - MacOS Apps/App Store Apps
     - Downloads 
