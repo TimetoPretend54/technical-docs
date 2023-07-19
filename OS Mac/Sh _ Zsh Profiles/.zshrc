@@ -1,10 +1,10 @@
 # SETTINGS
-source ~/znap/zsh-snap/znap.zsh                                         # https://github.com/marlonrichert/zsh-snap
-# source ~/.bash_profile                                                # ALREADY SOURCED BY DEFAULT, NO NEED FOR THIS LINE
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh               # https://github.com/zsh-users/zsh-autosuggestions (https://formulae.brew.sh/formula/zsh-autosuggestions)
-source ~/kube-ps1.sh                                                    # https://github.com/jonmosco/kube-ps1
-source ~/git-prompt.sh                                                  # https://github.com/lyze/posh-git-sh
-# znap source marlonrichert/zsh-autocomplete                            # https://github.com/marlonrichert/zsh-autocomplete
+source ~/Repos/znap/znap.zsh                                                # https://github.com/marlonrichert/zsh-snap
+source ~/.bash_profile                                                      # SOMETIMES SOURCED BY DEFAULT? CHECK OS AND TEST IF NEEDED (Try to use an alias cmd)
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh   # https://github.com/zsh-users/zsh-autosuggestions (https://formulae.brew.sh/formula/zsh-autosuggestions)
+source ~/kube-ps1.sh                                                        # https://github.com/jonmosco/kube-ps1
+source ~/git-prompt.sh                                                      # https://github.com/lyze/posh-git-sh
+# znap source marlonrichert/zsh-autocomplete                                # https://github.com/marlonrichert/zsh-autocomplete
 
 # CONFIGURE DOCKER-MACHINE (REMINDER, RUN `dockerstart` at least ONCE in a zsh shell instance!)
 eval "$(docker-machine env default)"
