@@ -17,10 +17,10 @@ export PROMPT_COMMAND='__posh_git_ps1 "\\[\[\e[0;32m\]\u \[\e[0;34m\]\w" " \[\e[
 # FUNCTIONS
 ## NAVIGATION
 function openRepo() {
-    local organizationProjectsDirectoryName = "OrganizationName"                             ## ex: ~/Projects/OrganizationName/..
+    local organizationProjectsDirectoryName="OrganizationName"                             ## ex: ~/Projects/OrganizationName/..
     local relativePath=`echo $PWD | awk -F"$organizationProjectsDirectoryName" '{print $2}'` ## ex: ~/Projects/OrganizationName/{relativePath}
     
-    local = organizationURLRepository = "OrganizationURLRepo"   ## ex: https://gitlab.company.com, https://github.com
+    local organizationURLRepository="OrganizationURLRepo"   ## ex: https://gitlab.company.com, https://github.com
     local fullUrl="${organizationURLRepository}${relativePath}"
     open $fullUrl
 }

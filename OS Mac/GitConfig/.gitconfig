@@ -1,6 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = FirstName LastName					 # UPDATE TO ACTUAL NAME
-	email = usernamefirst.usernamelast@email.com # UPDATE TO ORG/PERSONAL EMAIL (Depending on Machine)
+	email = usernamefirst.usernamelast@email.com # UPDATE TO ORG/PERSONAL EMAIL (Depending on Machine
+   #email = 25410691+TimetoPretend54@users.noreply.github.com		## USE FOR OPEN-SOURCE CONTRIBUTIONS
 [core]
 	editor = code --wait
