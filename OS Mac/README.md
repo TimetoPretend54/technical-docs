@@ -7,6 +7,7 @@
 - Install Git (follow `GitConfig\README.md`)
   - https://github.com/GitCredentialManager/git-credential-manager/blob/release/docs/install.md#macos
 - Install VS Code (https://code.visualstudio.com/download)
+  - NOTE: Chose the `Dark+` theme, has better golang syntax highlighting then default dark theme
 
 - Other Development Apps to Install:
     - NodeJS (https://nodejs.org/en/download/, choose LTS vers)
@@ -65,6 +66,8 @@
     - Mermaid Markdown Syntax Highlighting
     - Open API (Swagger) Editor
     - Partial Diff
+    - PHP Intelephense
+    - PHP Debug
     - Plant UML
     - PostgreSQL
     - Prettier - Code Formatter

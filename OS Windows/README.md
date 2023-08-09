@@ -8,6 +8,7 @@
 - Install Cmder (follow `AppBackups\README.md`)
 - Install Powershell Profile (follow `Powershell\README.md.md`)
 - Install VS Code (follow `VS Code\README.md` for settings setup)
+    - NOTE: Chose the `Dark+` theme, has better golang syntax highlighting then default dark theme
 - Install Azure Data Studio (follow `Azure Data Studio\README.md` for settings setup)
 - Install PowerToys (follow `PowerToys\README.md`for settings setup)
 

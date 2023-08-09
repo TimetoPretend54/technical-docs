@@ -10,6 +10,7 @@ NOTE: THIS MAY BE OVERWRITTEN/OUT OF DATE BASED ON LATST STEAMOS RELEASE (Tested
 
 ### VS Code
 - Install Visual Studio Code via Discover
+- NOTE: Chose the `Dark+` theme, has better golang syntax highlighting then default dark theme
 - Set VS Code PATH:
     ```
     PATH="$PATH:~/var/lib/flatpak/exports/bin
