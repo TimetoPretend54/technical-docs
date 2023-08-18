@@ -90,6 +90,12 @@
     - YAML Sort (Pascal Reitermann)
     - Zoom Bar (wraith13)
 
+- Azure Data Studio Extensions (Enter name under `Extensions` Menu)
+  - MongdoDB Atlus for Azure Data Studio
+  - MySQL
+    - Host/ServerName are synonymous
+  - PostgreSQL
+
 - MacOS Apps/App Store Apps
     - Downloads 
       - DisplayLink (For Dock Hub) -> First test if it works out of the box, or with the recent Software (https://www.synaptics.com/products/displaylink-graphics/downloads/macos)
