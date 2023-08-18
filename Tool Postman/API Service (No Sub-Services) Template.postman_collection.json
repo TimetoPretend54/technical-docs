@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "16944670-d305-480e-95b6-4358777dd37d",
+		"name": "API Service (No Sub-Services) Template",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16562763"
+	},
+	"item": [
+		{
+			"name": "localhost",
+			"item": [
+				{
+					"name": "general",
+					"item": [
+						{
+							"name": "API Info",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:9000/api/v1/?api_key={{api_key}}",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "9000",
+									"path": [
+										"api",
+										"v1",
+										""
+									],
+									"query": [
+										{
+											"key": "api_key",
+											"value": "{{api_key}}"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "issues-tickets",
+					"item": []
+				}
+			],
+			"auth": {
+				"type": "apikey",
+				"apikey": [
+					{
+						"key": "value",
+						"value": "{{api_key}}",
+						"type": "string"
+					},
+					{
+						"key": "key",
+						"value": "Service-API-KEY",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"//*****API INFORMATION******//---------------------------------",
+							"pm.variables.set(\"api_key\", \"12345\")",
+							"",
+							"//*****USER INFORMATION******//---------------------------------",
+							"pm.variables.set(\"user_id\", \"user-123\")",
+							"pm.variables.set(\"user_email\", \"user@test.com\")"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "staging",
+			"item": [
+				{
+					"name": "general",
+					"item": []
+				},
+				{
+					"name": "issues-tickets",
+					"item": []
+				}
+			],
+			"auth": {
+				"type": "apikey",
+				"apikey": [
+					{
+						"key": "value",
+						"value": "{{api_key}}",
+						"type": "string"
+					},
+					{
+						"key": "key",
+						"value": "Service-API-KEY",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							"//*****API INFORMATION******//---------------------------------",
+							"pm.variables.set(\"api_key\", \"12345\")",
+							"",
+							"//*****USER INFORMATION******//---------------------------------",
+							"pm.variables.set(\"user_id\", \"user-123\")",
+							"pm.variables.set(\"user_email\", \"user@test.com\")"
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "issues-tickets",
+			"item": []
+		}
+	]
+}

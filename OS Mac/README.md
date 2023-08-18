@@ -16,6 +16,7 @@
     - Golang (https://formulae.brew.sh/formula/go)
     - Postman (https://www.postman.com/downloads/)
         - remember to turn off SSL Certificate Validation
+        - reference [Tool Postman docs here](./../Tool%20Postman/README.md) for template references
     - Docker (https://medium.com/crowdbotics/a-complete-one-by-one-guide-to-install-docker-on-your-mac-os-using-homebrew-e818eb4cfc3)
     - Kubernetes (https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/#install-with-homebrew-on-macos)
     - Helm (https://helm.sh/docs/intro/install/#from-homebrew-macos)

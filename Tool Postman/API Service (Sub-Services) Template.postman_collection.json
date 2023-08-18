@@ -1,0 +1,263 @@
+{
+	"info": {
+		"_postman_id": "3ee4641f-8ebc-4003-81bb-d5e82b7205b7",
+		"name": "API Service (Sub-Services) Template",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16562763"
+	},
+	"item": [
+		{
+			"name": "API Sub-Service (ex: api/v1/sub-service)",
+			"item": [
+				{
+					"name": "v1",
+					"item": [
+						{
+							"name": "localhost",
+							"item": [
+								{
+									"name": "general",
+									"item": [
+										{
+											"name": "User Info",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "https://localhost:9000/api/v1/sub-service?user_email={{user_email}}",
+													"protocol": "https",
+													"host": [
+														"localhost"
+													],
+													"port": "9000",
+													"path": [
+														"api",
+														"v1",
+														"sub-service"
+													],
+													"query": [
+														{
+															"key": "user_email",
+															"value": "{{user_email}}"
+														}
+													]
+												}
+											},
+											"response": []
+										},
+										{
+											"name": "Create User",
+											"request": {
+												"method": "POST",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n    \"user_id\": {{user_id}},\n    \"user_name\": \"test\"\n}\n",
+													"options": {
+														"raw": {
+															"language": "json"
+														}
+													}
+												},
+												"url": {
+													"raw": "https://localhost:9000/api/v1/sub-service",
+													"protocol": "https",
+													"host": [
+														"localhost"
+													],
+													"port": "9000",
+													"path": [
+														"api",
+														"v1",
+														"sub-service"
+													]
+												}
+											},
+											"response": []
+										}
+									],
+									"event": [
+										{
+											"listen": "prerequest",
+											"script": {
+												"type": "text/javascript",
+												"exec": [
+													"//*****USER INFORMATION (OVERWRITES ENV localhost)******//---------------------------------",
+													"pm.variables.set(\"user_id\", \"user-321\")"
+												]
+											}
+										},
+										{
+											"listen": "test",
+											"script": {
+												"type": "text/javascript",
+												"exec": [
+													""
+												]
+											}
+										}
+									]
+								},
+								{
+									"name": "issues-tickets",
+									"item": []
+								}
+							],
+							"auth": {
+								"type": "apikey",
+								"apikey": [
+									{
+										"key": "value",
+										"value": "{{api_key}}",
+										"type": "string"
+									},
+									{
+										"key": "key",
+										"value": "Service-API-KEY",
+										"type": "string"
+									}
+								]
+							},
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											"//*****API INFORMATION******//---------------------------------",
+											"pm.variables.set(\"api_key\", \"12345\")",
+											"",
+											"//*****USER INFORMATION******//---------------------------------",
+											"pm.variables.set(\"user_id\", \"user-123\")",
+											"pm.variables.set(\"user_email\", \"user@test.com\")"
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											""
+										]
+									}
+								}
+							]
+						},
+						{
+							"name": "staging",
+							"item": [
+								{
+									"name": "general",
+									"item": []
+								},
+								{
+									"name": "issues-tickets",
+									"item": []
+								}
+							],
+							"auth": {
+								"type": "apikey",
+								"apikey": [
+									{
+										"key": "value",
+										"value": "{{api_key}}",
+										"type": "string"
+									},
+									{
+										"key": "key",
+										"value": "Service-API-KEY",
+										"type": "string"
+									}
+								]
+							},
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											"//*****API INFORMATION******//---------------------------------",
+											"pm.variables.set(\"api_key\", \"12345\")",
+											"",
+											"//*****USER INFORMATION******//---------------------------------",
+											"pm.variables.set(\"user_id\", \"user-123\")",
+											"pm.variables.set(\"user_email\", \"user@test.com\")"
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"type": "text/javascript",
+										"exec": [
+											""
+										]
+									}
+								}
+							]
+						},
+						{
+							"name": "issues-tickets",
+							"item": [
+								{
+									"name": "ticketID-1",
+									"item": [
+										{
+											"name": "User Info",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"url": {
+													"raw": "https://localhost:9000/api/v1/sub-service?user_email={{user_email}}",
+													"protocol": "https",
+													"host": [
+														"localhost"
+													],
+													"port": "9000",
+													"path": [
+														"api",
+														"v1",
+														"sub-service"
+													],
+													"query": [
+														{
+															"key": "user_email",
+															"value": "{{user_email}}"
+														}
+													]
+												}
+											},
+											"response": []
+										}
+									],
+									"event": [
+										{
+											"listen": "prerequest",
+											"script": {
+												"type": "text/javascript",
+												"exec": [
+													"//*****USER INFORMATION (OVERWRITES ENV localhost)******//---------------------------------",
+													"pm.variables.set(\"user_email\", \"user@test2.com\")"
+												]
+											}
+										},
+										{
+											"listen": "test",
+											"script": {
+												"type": "text/javascript",
+												"exec": [
+													""
+												]
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
