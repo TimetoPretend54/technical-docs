@@ -36,3 +36,5 @@ Repository containing general information for Software Development/Machine Setup
 ## Dev Tooling
 - [Kubernetes (k8s)](/Tool%20Kubernetes%20(K8s)/)
 - [Golang](/Tool%20Golang/)
+- [Angular](/Tool%20Angular/)
+- [Postman](/Tool%20Postman/)
