@@ -1,8 +1,10 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
-export PATH="/opt/homebrew/bin:$PATH";
+export PATH="$HOME/bin:$PATH";                      # bins
+export PATH="/opt/homebrew/bin:$PATH";              # homebrew bins
+export PATH="$HOME/go/bin:$PATH";                   # go bins
 export BASH_SILENCE_DEPRECATION_WARNING=1;
 export GOPRIVATE="{private_URL_Repo}"
+export NG_CLI_ANALYTICS="false"                     # Turn off Angular CLI Analytics
 
 # SETTINGS
 source ~/.bash_prompt
