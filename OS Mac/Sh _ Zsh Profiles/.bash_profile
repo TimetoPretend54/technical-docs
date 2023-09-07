@@ -5,6 +5,7 @@ export PATH="$HOME/go/bin:$PATH";                   # go bins
 export BASH_SILENCE_DEPRECATION_WARNING=1;
 export GOPRIVATE="{private_URL_Repo}"
 export NG_CLI_ANALYTICS="false"                     # Turn off Angular CLI Analytics
+export KUBE_EDTIOR="code --wait"                    # Set kubetl editor for `kubectl edit` (for SteamOS -> /var/lib/flatpak/exports/bin/com.visualstudio.code --wait)
 
 # SETTINGS
 source ~/.bash_prompt

@@ -8,7 +8,11 @@
   - https://github.com/GitCredentialManager/git-credential-manager/blob/release/docs/install.md#macos
 - Install VS Code (https://code.visualstudio.com/download)
   - NOTE: Chose the `Dark+` theme, has better golang syntax highlighting then default dark theme
-
+  - 120 Column Rulers: https://levelup.gitconnected.com/do-you-know-about-rulers-in-visual-studio-code-f754b221a135
+      - settings.json
+      - ```
+        "editor.rulers": [120]
+        ```
 - Other Development Apps to Install:
     - NodeJS (https://nodejs.org/en/download/, choose LTS vers)
     - Angular (https://angular.io/cli)
