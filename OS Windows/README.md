@@ -41,7 +41,7 @@
     - Zoom Bar
     - Docker
     - ESLint
-    - GitLens
+    - GitLens -> WARNING, LARGE COMMIT HISTORY WILL POSSIBLY BREAK WITH INTELISENSE!!!
     - Markdown PDF
         - Right Click Markdown File -> Select `Export (pdf)`
         - Created in path relative to Markdown File in folder title `MarkdownPDFOutput`
