@@ -31,7 +31,7 @@
 - VS Code Extensions (Enter name under `Extensions` Menu)
     - Angular Language Service
     - AWS Toolkit (if using AWS)
-    - GitLens
+    - GitLens -> WARNING, LARGE COMMIT HISTORY WILL POSSIBLY BREAK WITH INTELISENSE!!!
     - Angular Snippets (Version 16)
     - Bridge to Kubernetes
     - Character Count
