@@ -41,7 +41,7 @@
     - Zoom Bar
     - Docker
     - ESLint
-    - GitLens -> WARNING, LARGE COMMIT HISTORY WILL POSSIBLY BREAK WITH INTELISENSE!!!
+    - GitLens -> WARNING, LARGE COMMIT HISTORY WILL POSSIBLY BREAK WITH INTELISENSE!!! (this is now [bultin w/ VS Code](https://code.visualstudio.com/updates/v1_97#_git-blame-information))
     - Markdown PDF
         - Right Click Markdown File -> Select `Export (pdf)`
         - Created in path relative to Markdown File in folder title `MarkdownPDFOutput`
