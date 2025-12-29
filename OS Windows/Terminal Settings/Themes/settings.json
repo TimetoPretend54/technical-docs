@@ -1,0 +1,40 @@
+{
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "colorScheme": "Dimmed Monokai",
+            "font": 
+            {
+                "size": 10
+            },
+            "opacity": 95
+        }
+    },
+    "schemes": 
+    [
+        {
+            "background": "#1F1F1F",
+            "black": "#3A3D41",
+            "blue": "#4F76A1",
+            "brightBlack": "#6F7174",
+            "brightBlue": "#61AFEF",
+            "brightCyan": "#56B6C2",
+            "brightGreen": "#8ACB88",
+            "brightPurple": "#C678DD",
+            "brightRed": "#F83E19",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#E5C07B",
+            "cursorColor": "#D8DEE9",
+            "cyan": "#578FA4",
+            "foreground": "#B8B8B8",
+            "green": "#879A3B",
+            "name": "Dimmed Monokai",
+            "purple": "#855C8D",
+            "red": "#BE3F48",
+            "selectionBackground": "#2A2D31",
+            "white": "#B8B8B8",
+            "yellow": "#C5A635"
+        }
+    ]
+}

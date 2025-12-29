@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+  "version": 5,
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "session",
+          "foreground": "#FF69B4",
+          "template": "{{ .UserName }} "
+        },
+        {
+          "type": "path",
+          "foreground": "#81A1C1",
+          "options": { "style": "full" },
+          "template": "{{ if .Env.POSH_GIT_STRING }}{{ .Path }}{{ else }}{{ .Path }} {{ end }}"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "text",
+          "foreground": "#6C6C6C",
+          "template": "{{ if .Env.POSH_GIT_STRING }}{{ .Env.POSH_GIT_STRING }} {{ end }}"
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "executiontime",
+          "foreground": "#A3BE8C",
+          "template": " {{ .FormattedMs }} "
+        }
+      ]
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "newline": true,
+      "segments": [
+        {
+          "type": "status",
+          "foreground": "#B48EAD",
+          "template": "❯ "
+        }
+      ]
+    }
+  ],
+  "console_title_template": "{{if .Root}}(Admin){{end}} {{.PWD}}",
+  "transient_prompt": {
+    "foreground": "#D8DEE9",
+    "template": "❯ "
+  }
+}

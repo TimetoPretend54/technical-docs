@@ -17,6 +17,7 @@ Repository containing general information for Software Development/Machine Setup
     - [Azure Data Studio - Dummy Settings Example Config](/OS%20Windows/Azure%20Data%20Studio%20(Dummy%20Conn%20Sample)/)
     - [GitConfig](/OS%20Windows/GitConfig/)
     - [Powershell](/OS%20Windows/Powershell/)
+    - [Terminal Settings](/OS%20Windows/Terminal%20Settings/)
     - [PowerToys](/OS%20Windows/PowerToys/)
 - [Linux OS](/OS%20Linux/)
     - [General - SteamOS](/OS%20Linux/SteamOS/)
