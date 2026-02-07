@@ -16,7 +16,7 @@
           "type": "path",
           "foreground": "#81A1C1",
           "options": { "style": "full" },
-          "template": "{{ if .Env.POSH_GIT_STRING }}{{ .Path }}{{ else }}{{ .Path }} {{ end }}"
+          "template": "{{ if .Env.POSH_GIT_STRING }}{{ .Path }}{{ else }}{{ .Path }}{{ end }}"
         }
       ]
     },
@@ -26,8 +26,28 @@
       "segments": [
         {
           "type": "text",
+          "foreground": "#42b2b2",
+          "style": "plain",
+          "template": " ("
+        },
+        {
+          "type": "kubectl",
+          "style": "plain",
+          "trailing_diamond": "\uE0B4",
+          "leading_diamond": " \uE0B6",
+          "foreground": "#ff7777",
+          "template": "{{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}"
+        },
+        {
+          "type": "text",
+          "foreground": "#42b2b2",
+          "style": "plain",
+          "template": ")"
+        },
+        {
+          "type": "text",
           "foreground": "#6C6C6C",
-          "template": "{{ if .Env.POSH_GIT_STRING }}{{ .Env.POSH_GIT_STRING }} {{ end }}"
+          "template": "{{ if .Env.POSH_GIT_STRING }}{{ .Env.POSH_GIT_STRING }}{{ end }}"
         }
       ]
     },
@@ -55,6 +75,7 @@
       ]
     }
   ],
+  "final_space": true,
   "console_title_template": "{{if .Root}}(Admin){{end}} {{.PWD}}",
   "transient_prompt": {
     "foreground": "#D8DEE9",
