@@ -5,3 +5,4 @@
 3. Open VS Code
 4. `F1 -> Preferences: Open Settings (JSON)`
 5. Paste copied contents
+6. File -> Preferences -> Themes -> Color Theme -> Dark+ (good syntax colors)
