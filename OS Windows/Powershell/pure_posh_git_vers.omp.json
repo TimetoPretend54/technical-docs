@@ -25,7 +25,7 @@
       "alignment": "left",
       "segments": [
         {
-          "type": "text",
+          "type": "kubectl",
           "foreground": "#42b2b2",
           "style": "plain",
           "template": " ("
@@ -36,10 +36,22 @@
           "trailing_diamond": "\uE0B4",
           "leading_diamond": " \uE0B6",
           "foreground": "#ff7777",
-          "template": "{{.Context}}{{if .Namespace}} :: {{.Namespace}}{{end}}"
+          "template": "{{.Context}}"
         },
         {
-          "type": "text",
+          "type": "kubectl",
+          "foreground": "#bababa",
+          "style": "plain",
+          "template": "{{if .Namespace}}::{{end}}"
+        },
+        {
+          "type": "kubectl",
+          "foreground": "#b6ffe9",
+          "style": "plain",
+          "template": "{{if .Namespace}}{{.Namespace}}{{end}}"
+        },
+        {
+          "type": "kubectl",
           "foreground": "#42b2b2",
           "style": "plain",
           "template": ")"
