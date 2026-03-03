@@ -46,7 +46,6 @@
     - Filter Line (by everettjf) - Use by opening `Ctrl+Shift+P` (type in `filter`)
         - A new file will appear with the filter out lines gone ({filename}.{extension}.filterline.log)
         - Remembers search patterns you have used before (helpful for searching for LogEvent Levels, ex: Filter by input string, search pattern" [WRN])
-    - GitBlame
     - Git Graph
     - Go (Go Team at Google)
     - Go Autotest
